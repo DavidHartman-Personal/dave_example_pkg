@@ -11,12 +11,12 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='dave_example_pkg',
     version='0.1.0',
-    description='David Hartman Python Template',
+    description='David Hartman Example Package',
     long_description=readme,
     author='David Hartman',
-    author_email='dhartman@challengetaker.com',
+    author_email='david.j.hartman@gmail.com',
     url='TBD',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
